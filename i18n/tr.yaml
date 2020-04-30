@@ -1,0 +1,12 @@
+# Single
+wordCount:
+    one: "{{ .Count }} kelime"
+    other: "{{ .Count }} kelime"
+
+readingTime:
+    one: "{{ .Count }} dk."
+    other: "{{ .Count }} dk."
+
+# Author
+articles:
+    other: "Yazılar"

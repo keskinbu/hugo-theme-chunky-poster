@@ -7,7 +7,7 @@
                     <li class="list-inline-item">
                         {{- with .Site.GetPage "" -}}
                             {{- with .OutputFormats.Get "RSS" -}}
-                                <a href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" class="icons d-block">
+                                <a href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" class="icons d-block" target="_blank">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -30,7 +30,7 @@
                     {{- range $name, $path := .Site.Params.social -}}
                         {{- if and $path (not (in (slice "rss" "email") $name)) -}}
                         <li class="list-inline-item">
-                            <a href="{{ $path | safeURL }}" class="icons d-block">
+                            <a href="{{ $path | safeURL }}" class="icons d-block" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-{{ $name }} fa-stack-1x fa-inverse"></i>
