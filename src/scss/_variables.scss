@@ -17,7 +17,7 @@ $light: $white;
 $dark: $gray-900;
 $headings-color: $gray-900;
 $headings-font-family: 'Open Sans', sans-serif;
-$headings-font-weight: 700;
+$headings-font-weight: 600;
 
 $font-family-sans-serif: 'Roboto', sans-serif;
 $font-family-monospace: 'Roboto Mono', monospace;
@@ -27,6 +27,7 @@ $link-color: $gray-800;
 $link-decoration: underline;
 
 $font-size-base: 1.125rem;
+$headers-font-size-base: 2.5rem;
 
 $headings-margin-bottom: 1.25rem;
 $paragraph-margin-bottom: 1.5rem;
@@ -49,7 +50,17 @@ $border-radius-lg: .5rem;
 $border-radius-sm: .3rem;
 $blockquote-font-size: $font-size-base;
 
+$article-meta-font-size: $font-size-base;
+$article-font-size: 1.3125rem;
+
 $code-color: $body-color;
 $navbar-brand-font-size: 1rem;
 $navbar-nav-link-padding-x: 1.25rem;
 $navbar-padding-y: .4rem;
+
+$color-palette-base: #F8F1E3;
+$color-palette-1: #C9CEBE;
+$color-palette-2: #9AADA0;
+$color-palette-3: #6F8B87;
+$color-palette-4: #4A6970;
+$color-palette-5: #2F4858;

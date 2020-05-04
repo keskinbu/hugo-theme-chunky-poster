@@ -1,3 +1,7 @@
+.content-page-body {
+    background-color: $color-palette-base;
+}
+
 .homepage-image {
     @include media-breakpoint-up(lg) {
         position: absolute;
@@ -7,9 +11,35 @@
     }
 }
 
+.bg-nav {
+    background-color: $color-palette-5 !important;
+}
+
+.bg-nav a {
+    color: $gray-100 !important;
+}
+
 .author .name a, .author .social a {
     color: $gray-900;
     text-decoration: none;
+}
+
+h1 {
+    font-size: $headers-font-size-base;
+}
+
+article .meta {
+    font-size: $article-meta-font-size;
+    color: $color-palette-2 !important;
+}
+
+.meta .created {
+    font-size: $article-meta-font-size;
+    color: $color-palette-2 !important;
+}
+
+article p {
+    font-size: $article-font-size;
 }
 
 blockquote {
@@ -77,6 +107,10 @@ ul.share.nav {
         padding: $nav-link-padding-y 0.2rem;
         text-align: center;
     }
+}
+
+.bg-dark {
+    background-color: $color-palette-5 !important;
 }
 
 footer a:not(.icons) {
